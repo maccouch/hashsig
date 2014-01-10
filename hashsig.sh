@@ -4,6 +4,9 @@
 # ***      licensed under GNU GPL v2	   ***
 # * http://www.gnu.org/licenses/gpl-2.0.html *
 
+# simply receives a string from bash argument and outputs several hash values. 
+# arguments of more than 1 word must be enclosed  in  quotation marks: 
+# 	hashsig "word1 word2"
 
 import sys
 import hashlib
