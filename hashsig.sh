@@ -29,5 +29,6 @@ try:
 		# 	pprint '    ',elemento2,':', hashdict[elemento2]
 		# 	#sys.print(elemento)
 		# print ' '
+		sys.exit(0)
 except:
 	 sys.exit(2)
